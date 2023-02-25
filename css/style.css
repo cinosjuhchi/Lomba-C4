@@ -1,0 +1,71 @@
+.private-link{
+    text-decoration: none;
+    list-style: none;
+    color: #1A1A1A;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-right: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.container-desu{
+    margin: 0 80px;
+}
+
+.sign{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.sign-up{
+    width: 153px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0040FF;
+    border-radius: 18px;
+}
+
+.signs{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    color: #F7F7F7;
+}
+
+.jumbotron{
+    background: url(../img/jumbo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.jumbo-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    color: #f7f7f7db;
+    font-size: 38px;
+    margin-top: 196px;
+
+}
+
+.search{
+    height: 45px;
+    background-color: #E1E1E1;
+    margin-top: 30px;
+    width: 594px;
+    border-radius: 36px;
+    border: none;
+
+}
