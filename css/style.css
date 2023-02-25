@@ -69,3 +69,10 @@ text-align: center;
     border: none;
 
 }
+
+.search:placeholder-shown{
+    padding-left: 5%;
+    font-family: 'Roboto';
+    Font-size: 20px;
+}
+
