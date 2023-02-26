@@ -1,22 +1,153 @@
-.private-link{
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    transform: translateY(-2px);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #1B5AB9;
+}
+
+.nav-item a {
+    position: relative;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+li>a::after {
+    content: "";
+    position: absolute;
+    background-color: #3051FF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #0040FF;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.button-pertama {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: 0.3s;
+}
+
+.c-btn-pertama {
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    transition: 0.3s;
+}
+
+.c-btn-pertama .button-pertama:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+.button-pertama:after{
+    content: "";
+    position: absolute;
+    background-color: #3051FF;
+    height: 3px;
+    width: 50%;
+    left: 23%;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.c-btn-kedua {
+    width: 160px;
+    height: 45px;
+    background-color: #0040FF;;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.button-kedua {
+    font-size: 700;
+    text-decoration: none;
+    font-style: normal;
+    color: #fff;
+}
+
+.c-btn-kedua:hover{
+    transform: scale(115%)
+}
+
+.c-search {
+    width: 100%;
+}
+
+.search-box {
+    display: flex;
+    width: 796px;
+    padding: 8px 35px;
+    border-radius: 46px;
+    background-color: #E1E1E1;
+    margin: 0 auto;
+}
+
+.search-box .search-icon {
+    font-size: 1.7rem;
+    color: #616571;
+}
+
+.search-box .search-input {
+    transition: .5s;
+    width: 0px;
+}
+
+.search-input .search{
+    width: 710px;
+    border: none;
+    outline: none;
+    background-color: unset;
+    padding: 8px;
+}
+
+
+.private-link {
     text-decoration: none;
     list-style: none;
     color: #1A1A1A;
     font-family: Roboto;
     font-size: 16px;
     margin-right: 15px;
-font-weight: 500;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: center;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
-.container-desu{
+.container-desu {
     margin: 0 80px;
 }
 
-.sign{
+.sign {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
@@ -26,7 +157,7 @@ text-align: center;
     color: #1A1A1A;
 }
 
-.sign-up{
+.sign-up {
     width: 153px;
     height: 40px;
     display: flex;
@@ -36,43 +167,24 @@ text-align: center;
     border-radius: 18px;
 }
 
-.signs{
+.signs {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     color: #F7F7F7;
 }
 
-.jumbotron{
+.jumbotron {
     background: url(../img/jumbo.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
 }
 
-.jumbo-text{
-    font-family: 'Roboto';
+.jumbo-text {
     font-style: normal;
-    font-weight: 500;
     color: #f7f7f7db;
-    font-size: 38px;
+    font-size: 50px;
     margin-top: 196px;
 
 }
-
-.search{
-    height: 45px;
-    background-color: #E1E1E1;
-    margin-top: 30px;
-    width: 594px;
-    border-radius: 36px;
-    border: none;
-
-}
-
-.search:placeholder-shown{
-    padding-left: 5%;
-    font-family: 'Roboto';
-    Font-size: 20px;
-}
-
