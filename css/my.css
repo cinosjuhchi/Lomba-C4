@@ -5,14 +5,15 @@
     text-decoration: none;
 }
 
+
 .nav-cino{
     border-bottom: 1px solid #616571;
+    
 }
 
-.container-desu{
-    margin: 0 60px;
+.anime{
+    transition: all 5s ease-in-out;
 }
-
 
 
 
@@ -79,72 +80,6 @@
     color: white;
 }
 
-.story{
-    height: 170px;
-    width: 1320px;
-    border-radius: 15px;
-    background: #0040FF;
-    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.5);
-
-}
-
-.mark-1{
-    margin-top: 40px;
-}
-
-
-.img-profile{
-    width: 75px;
-    height: 75px;
-}
-
-.names{
-    width: 90px;
-    height: 23px;
-}
-
-.names .profile-name{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    margin-top: 15px;
-    text-align: center;
-}
-
-
-
-.items-profile{
-    padding-top: 28px;
-}
-
-.arrow{
-    width: 48px;
-    height: 48px;
-    margin-top: 41px;
-}
-
-.mark-3{
-    margin-top: 25px;
-}
-
-.title-1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-style: bold;
-    font-weight: 700;
-    letter-spacing: 0em;
-    text-align: center;
-
-}
-
-i{
-    color: white;
-}
-
-.italic-1{
-    color: #0040FF;
-}
 
 #sidebar{
     z-index: 9999;
@@ -195,8 +130,62 @@ color: #000000;
 
 }
 
+
+.mark-1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 25px;
+}
+.mark-2{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+margin-bottom: 30px;
+margin-top: 15px;
+font-weight: 500;
+}
+
+.mark-3{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.kotak-1{
+    height: 220px;
+    width: 315px;
+    border-radius: 10px;
+    display: flex;
+    background: linear-gradient(179.47deg, rgba(0, 0, 0, 0) 61.64%, rgba(0, 0, 0, 0.2) 99.54%),
+linear-gradient(0deg, #A4A4A4, #A4A4A4);
+}
+
+.kotak-2{
+    height: 220px;
+    width: 315px;
+    border-radius: 10px;
+
+}
+
 .mark-5{
     margin-left: 15px;
+}
+
+
+.prf{
+    margin-top: 10px;
+}
+
+.title-3{
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
 }
 
 .email{
@@ -284,10 +273,9 @@ color: #A4A4A4;
     padding-left: 20px;
 }
 
-#check{
-    display: none;
-}
 
-label #btn{
-    cursor: pointer;
+@media screen and (max-width: 400px) {
+    #sidebar{
+        width: 393px;
+    }
 }
