@@ -37,7 +37,6 @@ body {
     position: relative;
     padding: 0 10px;
     font-weight: bold;
-    color: white;
 }
 
 li>a::after {
@@ -356,5 +355,66 @@ li a:hover::after {
     
     #show-more.close{
         display: none;
+    }
+    
+    @media screen and (max-width: 576px){
+        
+        
+        ul{
+            margin-left: 0;
+        }
+    
+        li{
+            text-align: center;
+        }
+        h1{
+            display: none;
+        }
+    
+        #container{
+            margin-top: 50px;
+        }
+    
+        form{
+            width: 100%;
+        }
+    
+        .button{
+            margin-top: 20px;
+        }
+        .button-pertama{
+            margin-left: 120px;
+    
+        }
+    
+        #button{
+            width: 100%;
+        }
+        .icon{
+            position: absolute;
+            right: 35px;
+            margin-top: 0;
+    
+        }
+    
+        p{
+            margin-left: 15px;
+        }
+
+
+        
+    }
+    
+    
+    
+    @media screen and (width: 1280px){
+        ul{
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    
+        .icon{
+            right: 18%;
+        }
     }
     

@@ -48,7 +48,7 @@ li a:hover::after {
     width: 100%;
 }
 
-.button-pertama {
+.button-kedua {
     font-size: 20px;
     text-decoration: none;
     position: relative;
@@ -56,7 +56,7 @@ li a:hover::after {
     transition: 0.3s;
 }
 
-.c-btn-pertama {
+.c-btn-kedua {
     height: 30px;
     right: 50px;
     position: relative;
@@ -65,13 +65,13 @@ li a:hover::after {
     transition: 0.3s;
 }
 
-.c-btn-pertama .button-pertama:hover::after{
+.c-btn-kedua .button-kedua:hover::after{
     width: 100%;
     border-radius: 10px;
     left: 0;
 }
 
-.button-pertama:after{
+.button-kedua:after{
     content: "";
     position: absolute;
     background-color: #3051FF;
@@ -82,24 +82,24 @@ li a:hover::after {
     transition: 0.3s;
 }
 
-.c-btn-kedua {
+.c-btn-pertama {
     width: 160px;
     height: 45px;
-    background-color: #0040FF;;
+    background-color: #0040FF;
     border: none;
     border-radius: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 
-.button-kedua {
+.button-pertama {
     font-size: 700;
     text-decoration: none;
     font-style: normal;
     color: #fff;
 }
 
-.c-btn-kedua:hover{
+.c-btn-pertama:hover{
     transform: scale(115%)
 }
 
