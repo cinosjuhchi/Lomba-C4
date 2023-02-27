@@ -11,6 +11,12 @@
     
 }
 
+.anime{
+    transition: all 5s ease-in-out;
+}
+
+
+
 
 .logo-1{
     margin-left: 35px;
@@ -265,4 +271,11 @@ color: #A4A4A4;
 
 #sidebar ul li:hover a{
     padding-left: 20px;
+}
+
+
+@media screen and (max-width: 400px) {
+    #sidebar{
+        width: 393px;
+    }
 }
