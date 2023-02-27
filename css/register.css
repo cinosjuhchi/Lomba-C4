@@ -48,12 +48,43 @@ li a:hover::after {
     width: 100%;
 }
 
-.button-kedua {
-    font-size: 20px;
+.button-pertama {
     text-decoration: none;
     position: relative;
     font-size: 20px;
     transition: 0.3s;
+    color: white;
+    background-color: #0040FF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    right: 50px;
+    padding: 10px 30px;
+}
+
+.button-pertama:hover{
+    color: #fff;
+}
+
+.c-btn-pertama {
+    height: 30px;
+    right: 50px;
+    position: relative;
+    background: none;
+    border: none;
+    transition: 0.3s;
+}
+
+.c-btn-pertama:hover{
+    transform: scale(115%)
+}
+
+
+.c-btn-pertama .button-pertama:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    left: 0;
 }
 
 .c-btn-kedua {
@@ -65,11 +96,17 @@ li a:hover::after {
     transition: 0.3s;
 }
 
-.c-btn-kedua .button-kedua:hover::after{
-    width: 100%;
-    border-radius: 10px;
-    left: 0;
+.button-kedua {
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    transition: 0.3s;
 }
+.button-kedua:hover{
+    color: #3051FF;
+}
+
 
 .button-kedua:after{
     content: "";
@@ -82,26 +119,12 @@ li a:hover::after {
     transition: 0.3s;
 }
 
-.c-btn-pertama {
-    width: 160px;
-    height: 45px;
-    background-color: #0040FF;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
+.c-btn-kedua .button-kedua:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    left: 0;
 }
 
-.button-pertama {
-    font-size: 700;
-    text-decoration: none;
-    font-style: normal;
-    color: #fff;
-}
-
-.c-btn-pertama:hover{
-    transform: scale(115%)
-}
 
 
 #container{
