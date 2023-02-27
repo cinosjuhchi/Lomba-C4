@@ -162,6 +162,7 @@ border-right: 1px solid #616571;
 }
 
 
+
 #sidebar ul li{
     padding-left: 10px;
 }
@@ -188,6 +189,15 @@ border-right: 1px solid #616571;
     height: 50px;
     border: 1px solid #000000;
     border-radius: 10px;
+}
+
+#btn{
+    transform: rotate(180deg);
+    transition: all 0.5s ease-in-out;
+}
+
+#btn.open{
+    transform: rotate(90deg);
 }
 
 #sidebar ul li a{
