@@ -1,67 +1,72 @@
-body{
-    margin: 42px 120px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
 .cancel{
-    padding: 15px 25px;
-    width: 115px;
+    width: 183px;
     text-decoration: none;
+    height: 50px;
     background: #000000;
     border-radius: 60px;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #F7F7F7;
     cursor: pointer;
 }
 
-h1{
+.title-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 47px;
-    display: flex;
-    width: 400px;
-    color: #000000;
-    justify-content: center;
-    height: 47px;
-
+    text-align: center;
+        
 }
+
+
 
 .upload{
-    padding: 15px 25px;
-    width: 115px;
-    text-decoration: none;
+    width: 183px;
+    height: 50px;
     background: #0040FF;
     border-radius: 60px;
-    font-weight: 700;
+
+}
+
+.nav-private{
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    align-items: center;
-    color: #F7F7F7;
-    margin-left: 220px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    
 }
 
 
-form{
-    margin-top: 100px;
-}
+
+
+
 
 #upload{
     width: 590px;
-    height: 500px;
+    height: 800px;
     background: #FFFFFF;
-    border: 1px dashed #000000;
+    border: 3px dashed #000000;
     border-radius: 15px;
     margin-top: 100px;
 }
 
-.img-upload{
-    position: relative;
-    margin-left: 250px;
-    top: 50px;
+
+
+.teks{
+    font-family: 'Roboto' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    
 }
 
 
@@ -86,20 +91,30 @@ p{
     border: 1px solid #000000;
     border-radius: 15px;
     margin-bottom: 20px;
+
 }
 
 #desc{
     width: 590px;
-    height: 300px;
+    height: 590px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 15px;
-    margin-bottom: 20px;
 }
 
-@media screen and (width: 1280px){
-    .img-upload{
-        margin-left: 170px;
+
+
+@media screen and (max-width: 400px) {
+    .title-1{
+        font-size: 18px;
+        text-align: center;
+    }
+    #nama-link{
+        margin-top: 30px;
     }
 
+    .meta{
+        margin-left: 140px;
+    }
+    
 }
