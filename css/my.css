@@ -14,14 +14,6 @@
 
 
 
-
-
-
-
-.logo-1{
-    margin-left: 35px;
-}
-
 .c-search {
     width: 100%;
 }
@@ -248,6 +240,7 @@ color: #A4A4A4;
 
 #btn{
     transform: rotate(180deg);
+    margin-top: 15px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -299,5 +292,8 @@ color: #A4A4A4;
         
     }
 
+    #sidebar ul li:nth-child(4){
+        margin-top: 400px;
+    }
     
 }
