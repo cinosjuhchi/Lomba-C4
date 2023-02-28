@@ -1,329 +1,107 @@
-.navbar {
-    transition: all 0.5s;
+#content-1{
+    background-image: url(/img/asetaca/Rectangle\ 78.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
 }
 
-.navbar-scrolled{
-    background-color: #6C757D;
-    box-shadow: 0 3px 10px rgba(0, 0, 0 , 0.15);
-    color: black;
+img{
+    width: 335px;
+height: 81px;
+margin: auto;
 }
 
-.navbar-nav {
-    color: black;
+#content-2{
+    margin-top: 100px;
 }
 
-.logo {
-    transform: translateY(-2px);
+.form{
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    color: #1B5AB9;
-}
-
-.nav-item a {
-    position: relative;
-    padding: 0 10px;
-    font-weight: bold;
-    color: black;
-}
-
-li>a::after {
-    content: "";
-    position: absolute;
-    background-color: #3051FF;
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -1px;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-
-.nav-link:hover{
-    color: #0040FF;
-}
-
-li a:hover::after {
-    width: 100%;
-}
-
-.button-pertama {
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    transition: 0.3s;
-    color: white;
-    background-color: #0040FF;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
-    padding: 10px 30px;
-}
-
-.button-pertama:hover{
-    color: #fff;
-}
-
-.c-btn-pertama {
-    height: 30px;
-    position: relative;
-    background: none;
-    border: none;
-    transition: 0.3s;
-}
-
-.c-btn-pertama:hover{
-    transform: scale(115%)
-}
-
-
-.c-btn-pertama .button-pertama:hover::after{
-    width: 100%;
-    border-radius: 10px;
-    left: 0;
-}
-
-.c-btn-kedua {
-    height: 30px;
-    position: relative;
-    background: none;
-    border: none;
-    transition: 0.3s;
-}
-
-.button-kedua {
-    font-size: 20px;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    transition: 0.3s;
-}
-.button-kedua:hover{
-    color: #3051FF;
-}
-
-
-.button-kedua:after{
-    content: "";
-    position: absolute;
-    background-color: #3051FF;
-    height: 3px;
-    width: 50%;
-    left: 23%;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-.c-btn-kedua .button-kedua:hover::after{
-    width: 100%;
-    border-radius: 10px;
-    left: 0;
-}
-
-
-
-#container{
-    margin-top: 168px;
-}
-
-form{
-    width: 420px;
-    height: 363px;
-}
-
-input{
-    width: 420px;
-    height: 70px;
-}
-
-.form-control{
-    border: none;
-    background: rgba(170, 184, 255, 0.26);
-    margin-bottom: 30px;
-    border-radius: 15px;   
-}
-
-.mata{
-    position: absolute;
-    right: 24%;
-    transform: translate(0, 800%);
-    top: 50%;
-    cursor: pointer;
-}
-
-.icon{
-    position: absolute;
-    transform: translate(0, -230%);
-    right: 24%;
-    cursor: pointer;
-}
-
-#button{
-    width: 420px;
-    height: 70px;
-    background: rgba(58, 90, 255, 0.9);
-    border-radius: 15px;
-    border: none;
-    color: #FFFFFF;
-    
-}
-
-
-h1{
-    margin-left: 150px;
+h3{
     font-weight: 700;
-    font-size: 64px;
-    align-items: center;
-    color: #000000;
-}
-
-.text-1{
-    margin-left: 150px;
-    align-items: center;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: 24px;
-    color: #000000;
+    font-size: 36px;
+    line-height: 42px;
 }
 
 p{
-    margin-left: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #616571;
 }
 
-.regis-link{
-    color: #3051FF;
-    font-weight: 400;
-    font-size: 24px;
+a{
+    color: #0075FF;
     text-decoration: none;
 }
 
+.form-label{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+}
+
+.form-control{
+    width: 588px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+button{
+    width: 588px;
+    height: 50px;
+    background: #3B8BCB;
+    border-radius: 8px;
+}
+
+.service{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 161%;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.biru{
+    color: #3B8BCB;
+}
+
 @media screen and (max-width: 576px){
-
-    ul{
-        margin-left: 0;
-    }
-
-    li{
-        text-align: center;
-        padding: 10px;
-    }
-    h1{
+    #content-1{
         display: none;
     }
 
-
-    .c-btn-pertama{
-        display: block;
-        margin: 20px auto;
-    }
-    .c-btn-kedua{
-        display: block;
-        margin: 30px auto;
+    .form{
+        margin: 0;
     }
 
-    h1{
-        display: none;
-    }
-
-    #container{
-        margin-top: 50px;
-    }
-
-    form{
+    .form-control{
         width: 100%;
     }
 
-    #button{
+    button{
         width: 100%;
-    }
-    .icon{
-        position: absolute;
-        right: 35px;
-        margin-top: 0;
-
-    }
-
-    p{
-        margin-left: 15px;
     }
     
-}
-
-@media screen and (width: 1280px){
-    ul{
-        margin-left: 0;
-    }
-
-    #signin{
-        color: #3A5AFF;
-        margin-left: 20px;
-        background-color: #ffff;
-        width: 130px;
-        height: 40px;
-        text-decoration: none;
-        border-radius: 30px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        margin-bottom: 15px;
-    }
-
-    #regis-link{
-        background-color: #3A5AFF;
-        padding-left: 35px;
-        margin-left: 0;
-        color: white;
-        width: 130px;
-        height: 40px;
-        text-decoration: none;
-        border-radius: 30px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        margin-bottom: 15px;
-    }
-
-    #regis::after{
-        display: none;
-    }
-
-    .icon{
-        right: 18%;
-    }
-}
-
-@media screen and (max-width: 1400px){
-    ul{
-        margin-left: 0;
+    .form-label{
         margin-top: 20px;
     }
+}
 
-    #signin{
-        color: #3A5AFF;
-        margin-left: 20px;
-        background-color: #ffff;
-        width: 130px;
-        height: 40px;
-        text-decoration: none;
-        border-radius: 30px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        margin-bottom: 15px;
+@media screen and (max-width: 1440px){
+    .form-control{
+        width: 100%;
     }
 
-    #regis-link{
-        background-color: #3A5AFF;
-        padding-left: 35px;
-        margin-left: 0;
-        color: white;
-        width: 130px;
-        height: 40px;
-        text-decoration: none;
-        border-radius: 30px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        margin-bottom: 15px;
+    button{
+        width: 100%;
     }
-
-    #regis::after{
-        display: none;
-    }
-
-    
 }
