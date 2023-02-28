@@ -210,7 +210,22 @@ p{
 
     li{
         text-align: center;
+        padding: 10px;
     }
+    h1{
+        display: none;
+    }
+
+
+    .button{
+        margin-top: 5px;
+        margin-left: 55px;
+    }
+
+    .button-pertama{
+        margin-left: 50px;
+    }
+
     h1{
         display: none;
     }
@@ -221,14 +236,6 @@ p{
 
     form{
         width: 100%;
-    }
-
-    .button{
-        margin-top: 20px;
-    }
-    .button-pertama{
-        margin-left: 120px;
-
     }
 
     #button{

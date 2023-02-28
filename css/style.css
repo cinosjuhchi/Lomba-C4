@@ -4,10 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 .navbar {
@@ -59,12 +61,48 @@ li a:hover::after {
     width: 100%;
 }
 
+.home{
+    color: #3051FF;
+}
+
+.home:hover{
+    color: #3051FF;
+}
+
+
+.home:after{
+    content: "";
+    position: absolute;
+    background-color: #3051FF;
+    height: 3px;
+    width: 50%;
+    left: 23%;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.home:hover::after{
+    width: 100%;
+    border-radius: 10px;
+    left: 0;
+}
+
 .button-pertama {
-    font-size: 20px;
     text-decoration: none;
-    position: relative;
     font-size: 20px;
     transition: 0.3s;
+    background-color: white;
+    color: #0040FF;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    right: 10px;
+    padding: 10px 30px;
+}
+
+.button-pertama:hover{
+    color: #0040FF;
 }
 
 .c-btn-pertama {
@@ -76,21 +114,15 @@ li a:hover::after {
     transition: 0.3s;
 }
 
+.c-btn-pertama:hover{
+    transform: scale(115%)
+}
+
+
 .c-btn-pertama .button-pertama:hover::after{
     width: 100%;
     border-radius: 10px;
     left: 0;
-}
-
-.button-pertama:after{
-    content: "";
-    position: absolute;
-    background-color: #3051FF;
-    height: 3px;
-    width: 50%;
-    left: 23%;
-    bottom: -5px;
-    transition: 0.3s;
 }
 
 .c-btn-kedua {
@@ -187,6 +219,13 @@ li a:hover::after {
     font-style: normal;
     color: #000000E5;
 }
+
+.box {
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.25);
+    height: 350px;
+    background-color: #EEEEEE;
+}
+
 
 .custom-shape-divider-top-1677400997 {
     position: relative;
@@ -356,6 +395,36 @@ li a:hover::after {
     #show-more.close{
         display: none;
     }
+
+.kotak {
+    transform: translateX(25%) translateY(-10%);
+    width: 900px;
+    height: 650px;
+    background: #0040FF;
+}
+
+.kotak-2 {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    transform: translateX(-20%) translateY(-92%);
+    background: #FFFFFF;
+    box-shadow: -17px 12px 17px 2px rgb(0 0 0 / 25%);
+}
+
+.saran {
+    transform: translateX(80%);
+}
+
+.saran-btn {
+    transform: translateX(150%);
+}
+
+.icon-contact {
+    font-size: 40px;
+}
+
+
     
     @media screen and (max-width: 576px){
         
@@ -366,40 +435,21 @@ li a:hover::after {
     
         li{
             text-align: center;
+            padding: 10px;
         }
         h1{
             display: none;
         }
     
-        #container{
-            margin-top: 50px;
-        }
-    
-        form{
-            width: 100%;
-        }
     
         .button{
-            margin-top: 20px;
+            margin-top: 5px;
         }
+
         .button-pertama{
-            margin-left: 120px;
-    
+            margin-left: 50px;
         }
     
-        #button{
-            width: 100%;
-        }
-        .icon{
-            position: absolute;
-            right: 35px;
-            margin-top: 0;
-    
-        }
-    
-        p{
-            margin-left: 15px;
-        }
 
 
         
