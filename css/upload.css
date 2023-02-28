@@ -1,120 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.cancel{
-    width: 183px;
-    text-decoration: none;
-    height: 50px;
-    background: #000000;
-    border-radius: 60px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #F7F7F7;
-    cursor: pointer;
+.container{
+    margin-top: 30px;
 }
 
-.title-1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-        
+h1{
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+color: #000000;
 }
 
 
 
-.upload{
-    width: 183px;
-    height: 50px;
+#btn-1{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
     background: #0040FF;
     border-radius: 60px;
-
+}
+#btn-2{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+    background: black;
+    border-radius: 60px;
 }
 
-.nav-private{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    color: white;
-    
+#btn-1:hover{
+    transform: scale(115%);
+    transition: 0.3s;
+}
+#btn-2:hover{
+    transform: scale(115%);
+    transition: 0.3s;
 }
 
+#container{
+    margin-top: 60px;
+}
 
-
-
-
-
-#upload{
+.form-1{
     width: 590px;
-    height: 800px;
+    height: 600px;
     background: #FFFFFF;
-    border: 3px dashed #000000;
+    border: 1px dashed #000000;
     border-radius: 15px;
-    margin-top: 100px;
-}
-
-
-
-.teks{
-    font-family: 'Roboto' sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0em;
-    
-}
-
-
-.img-upload input[type="file"]{
     cursor: pointer;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform: scale(3);
+}
+
+
+
+.img-upload input[type = "file"]{
+    cursor: pointer;
+    transform: scale(1);
     opacity: 0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
 }
 
 p{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
-#nama-link{
-    width: 590px;
+#title{
     height: 80px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 15px;
-    margin-bottom: 20px;
-
 }
 
 #desc{
-    width: 590px;
-    height: 590px;
+    height: 410px;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 15px;
+
 }
 
-
-
-@media screen and (max-width: 400px) {
-    .title-1{
-        font-size: 18px;
-        text-align: center;
-    }
-    #nama-link{
-        margin-top: 30px;
+@media screen and (max-width: 576px) {
+    #button{
+        margin-top: 20px;
     }
 
-    .meta{
-        margin-left: 140px;
+    #btn-1:hover{
+        transform: scale(105%);
+        transition: 0.3s;
     }
-    
+    #btn-2:hover{
+        transform: scale(105%);
+        transition: 0.3s;
+    }
+
+    .form-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
