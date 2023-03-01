@@ -386,12 +386,18 @@ li a:hover::after {
     margin-top: 196px;
 }
 
+.title-porto{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+}
+
 .title{
     font-family: Roboto;
     font-size: 48px;
     font-weight: 500;
     line-height: 56px;
-    
     }
     
     
@@ -478,17 +484,28 @@ li a:hover::after {
     position: relative;
     width: 400px;
     height: 550px;
-    transform: translateX(-20%) translateY(-92%);
+    transform: translateX(-20%) translateY(-98%);
     background: #FFFFFF;
     box-shadow: -17px 12px 17px 2px rgb(0 0 0 / 25%);
 }
 
+.judul-saran{
+    margin-top: 85px; 
+    padding-top: 85px; 
+    margin-bottom: 40px; 
+    transform: translateX(92%); 
+    font-weight: 700; 
+    width: 50%;
+}
+
 .saran {
     transform: translateX(80%);
+    width: 50%;
 }
 
 .saran-btn {
-    transform: translateX(150%);
+    width: 13%;
+    transform: translateX(591%);
 }
 
 .icon-contact {
@@ -499,7 +516,9 @@ li a:hover::after {
     
     @media screen and (max-width: 576px){
         
-        
+        body{
+        }
+
         ul{
             margin-left: 0;
         }
@@ -550,6 +569,38 @@ li a:hover::after {
             display: none;
         }
 
+        .title {
+            font-size: 2rem;
+            width: 65%;
+            transform: translateX(26%);
+            line-height: 100%;
+        }
+
+        .kotak {
+            transform: scale(50%) translateY(-80%) translateX(-53%);
+            width: 785px;
+        }
+
+        .kotak-2{
+            transform: translateY(40%);
+            width: 785px;
+        }
+
+        .judul-saran{
+            transform: translateX(18%);
+            width: 100%;
+            font-size: 2.5rem;
+        }
+
+        .saran {
+            transform: translateX(26%) scale(120%);
+            width: 65%;
+        }
+
+        .saran-btn{
+            transform: translateX(13.4%);
+            width: 78%;
+        }
     }
     
     
