@@ -1,0 +1,32 @@
+.comment{
+     width: 915px;
+    height: 109.58px;
+    background: #FFFFFF;
+    border: 1px solid #616571;
+    border-radius: 8px;
+}
+
+button{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 1440px){
+    .comment{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .karya{
+        width: 100%;
+    }
+}

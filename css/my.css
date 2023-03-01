@@ -241,8 +241,9 @@ color: #A4A4A4;
 #btn{
     transform: rotate(180deg);
     margin-top: 15px;
+    cursor: pointer;
     transition: all 0.5s ease-in-out;
-}
+}   
 
 #btn.open{
     transform: rotate(90deg);
