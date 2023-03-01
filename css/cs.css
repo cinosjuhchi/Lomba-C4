@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.gs{
+    border-bottom: 1px solid #616571;
+    
+}
+
+.container-desu{
+    margin: 200px 160px;
+}
+
+
+#sidebar{
+    z-index: 9999;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+    left: -500px;
+    width: 375px;
+    height: 100vh;
+    background: #ffffff;
+border-right: 1px solid #616571;
+}
+
+
+.account{
+    width: 325px;
+    height: 98px;
+}
+.garis{
+    width: 325px;
+    height: 1px;
+    background: black;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+
+.isi-acc{
+    background: #ffffff;
+    width: 325px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 21px;
+    height: 78px;
+}
+
+.isi-img{
+    margin-left: 15px;
+}
+
+.title-acc{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 400;
+color: #000000;
+
+}
+.mark-1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 25px;
+}
+.mark-2{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+margin-top: 15px;
+font-weight: 500;
+}
+#sidebar.open{
+    left: 0;
+}
+
+
+
+#sidebar ul li{
+    padding-left: 10px;
+}
+
+#sidebar ul li:nth-child(1){
+    margin-top: 40px;
+    width: 325px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background: #ffffff;
+}
+
+#sidebar ul li:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 325px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #DBDBDB;
+}
+#sidebar ul li:nth-child(3){
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    margin-top: 10px;
+    width: 325px;
+    height: 50px;
+    border-radius: 10px;
+}
+#sidebar ul li:nth-child(4){
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    margin-top: 480px;
+    width: 325px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+#btn{
+    transform: rotate(180deg);
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+#btn.open{
+    transform: rotate(90deg);
+}
+
+#sidebar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+    font-style: bold;
+    font-weight: 500;
+    color: #000000;
+}
+
+#sidebar ul li:hover a{
+    padding-left: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+#title{
+    border: 1px solid #000000;
+    border-radius: 15px;
+    width: 545px;
+    height: 75px;
+}
+
+#desc{
+    border: 1px solid #000000;
+    border-radius: 15px;
+    width: 545px;
+    height: 140px;
+}
+
+#title:placeholder-shown{
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #A4A4A4;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#desc:placeholder-shown{
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #A4A4A4;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    padding-bottom: 60px;
+}
+
+
+
+.forms-c{
+    width: 300px;
+}
+
+.buts{
+    width: 100%;
+    height: 80px;
+}
+
+.submit{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+
+@media screen and (max-width: 440px) {
+    #sidebar{
+        width: 393px;
+    }
+
+    .search-box{
+        width: 325px;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .search-input .search{
+        width: 325px;
+        padding: 0;
+    }
+    
+    .search-box .search-icon{
+        position: absolute;
+        left: 32px;
+        top: 103px;
+    }
+
+    .button{
+        width: 255px;
+        height: 42px;
+        margin-top: 14px;
+        border-radius: 15px 15px 20px 20px;        
+        
+    }
+
+    #sidebar ul li:nth-child(4){
+        margin-top: 400px;
+    }
+    
+}
