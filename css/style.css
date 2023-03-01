@@ -482,24 +482,9 @@ li a:hover::after {
             transform: translateX(-27%) translateY(200%);
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .ft-question{
+            display: none;
+        }
 
     }
     
