@@ -42,3 +42,15 @@
     background-color: #F7F7F7;
     height: auto;
 }
+
+@media screen and (max-width : 576px){
+    .pp{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .pp-text{
+        transform: none;
+        margin: 0 10px;
+    }
+}
