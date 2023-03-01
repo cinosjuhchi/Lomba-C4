@@ -12,7 +12,7 @@
 }
 
 .container-desu{
-    margin: 200px 160px;
+    margin: 60px 160px;
 }
 
 
@@ -199,8 +199,8 @@ ul li{
 }
 
 .buts{
-    width: 100%;
-    height: 80px;
+    height: 60px;
+    width: 545px;
 }
 
 .submit{
@@ -208,7 +208,7 @@ ul li{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 
@@ -247,4 +247,29 @@ ul li{
         margin-top: 400px;
     }
     
+}
+
+@media screen and (max-width: 1440px) {
+
+    #title{
+        width: 100%;
+    }
+    #desc{
+        width: 100%;
+    }
+
+    .buts{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 576px){
+    .gambaritc{
+        display: none;
+    }
+    .container-desu{
+        margin: 50px 10px;
+    }
 }
