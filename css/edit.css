@@ -1,0 +1,114 @@
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #000000;
+}
+
+p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.gambar{
+    margin-top: 30px;
+}
+
+.gambar input[type = "file"]{
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 0;
+    margin: -120px 30px;
+    position: absolute;
+}
+
+
+
+
+.gambar-1{
+    width: 170px;
+    height: 170px;
+    border-radius: 170px;
+    margin: 20px auto;
+    display: block;
+}
+
+.gambar-2{
+    width: 500px;
+    height: 235px;
+    margin: 0 auto;
+    display: block;
+}
+
+.cover input[type = "file"]{
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 0;
+    margin: -120px 30px;
+    position: absolute;
+}
+
+.input{
+    box-sizing: border-box;
+    width: 590px;
+    height: 75px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+}
+
+.bio{
+    box-sizing: border-box;
+    width: 590px;
+    height: 235px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+}
+
+.form{
+    margin-top: 10px;
+}
+
+#button{
+    margin-top: 30px;
+}
+
+#btn-1{
+    background: #003974;
+    border-radius: 60px;
+    padding: 10px 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+#btn-2{
+    background: black;
+    border-radius: 60px;
+    padding: 10px 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+@media screen and (max-width: 1440px){
+    .form-control{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    .gambar-2{
+        width: 100%;
+    }
+}
