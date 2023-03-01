@@ -310,7 +310,7 @@ li a:hover::after {
 }
 
 .jumbotron {
-    background: url(../img/jumbo.jpg);
+    background-color: #003974;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -319,7 +319,7 @@ li a:hover::after {
 .jumbo-text {
     font-style: normal;
     color: #f7f7f7db;
-    font-size: 5rem !important;
+    font-size: 4rem !important;
     margin-top: 196px;
 }
 
