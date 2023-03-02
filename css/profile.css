@@ -8,6 +8,12 @@
     overflow-x: visible;
 }
 
+.button {
+    transform: translateY(-250%);
+    width: 1495px; 
+    height: 80px;
+}
+
 .banner {
     height: 200px;
     width: 100%;
@@ -245,5 +251,20 @@ color: #A4A4A4;
     .pp-text{
         transform: none;
         margin: 0 10px;
+    }
+
+    .button {
+        transform: translateY(-250%);
+        width: 370px; 
+        height: 80px;
+    }
+
+    .button img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button .btn-2 {
+        margin-top: 50px;
     }
 }
