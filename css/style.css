@@ -513,6 +513,24 @@ li a:hover::after {
 }
 
 
+.content-preview{
+    height: 220px;
+    width: 315px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.new-3{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
     
     @media screen and (max-width: 576px){
         
@@ -604,7 +622,7 @@ li a:hover::after {
     
     
     
-    @media screen and (width: 1280px){
+    @media screen and (max-width: 1280px){
         ul{
             margin-left: 0;
             margin-top: 20px;
@@ -612,6 +630,12 @@ li a:hover::after {
     
         .icon{
             right: 18%;
+        }
+        .content-preview{
+            height: 130px;
+            width: 235px;
+            margin-top: 20px;
+            border-radius: 10px;
         }
     }
     
