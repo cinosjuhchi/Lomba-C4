@@ -26,7 +26,7 @@
     width: 375px;
     height: 100vh;
     background: #ffffff;
-border-right: 1px solid #616571;
+    border-right: 1px solid #616571;
 }
 
 
@@ -105,13 +105,14 @@ font-weight: 500;
     height: 50px;
     margin-top: 10px;
     border-radius: 10px;
-    background: #DBDBDB;
+    background: #ffffff;
 }
 #sidebar ul li:nth-child(3){
     display: flex;
-    background: #ffffff;
+    background: #DBDBDB;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
     width: 325px;
     height: 50px;
     border-radius: 10px;
@@ -120,7 +121,7 @@ font-weight: 500;
     display: flex;
     background: #ffffff;
     align-items: center;
-    margin-top: 480px;
+    bottom: 0;
     width: 325px;
     height: 50px;
     border: 1px solid #000000;
@@ -131,6 +132,7 @@ font-weight: 500;
 #btn{
     transform: rotate(180deg);
     margin-top: 15px;
+    cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 
