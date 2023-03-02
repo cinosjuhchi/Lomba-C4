@@ -44,7 +44,7 @@
     height: auto;
 }
 
-@media screen and (max-width : 576px){
+@media screen and (max-width : 1440px){
     .pp{
         margin: 0 auto;
         display: block;
