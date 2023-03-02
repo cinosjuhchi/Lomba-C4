@@ -147,6 +147,13 @@ li a:hover::after {
     left: 0;
 }
 
+.signup{
+    
+background: #003974;
+border-radius: 30px;
+color: white;
+}
+
 .button-pertama {
     text-decoration: none;
     font-size: 1rem;
@@ -356,14 +363,13 @@ li a:hover::after {
 }
 
 .sign-up {
-    width: 153px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #003974;
     border-radius: 18px;
 }
+
 
 .signs {
     font-family: 'Roboto';
@@ -594,19 +600,29 @@ li a:hover::after {
         }
 
         .kotak {
-            transform: scale(50%) translateY(-80%) translateX(-53%);
-            width: 785px;
+            transform: none;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 30px;
         }
 
         .kotak-2{
-            transform: translateY(40%);
-            width: 785px;
+            transform: none;
+            width: 100%;
+            display: none;
         }
 
+        #box{
+            display: block;
+        }
+
+
         .judul-saran{
-            transform: translateX(18%);
+            transform: none;
             width: 100%;
-            font-size: 2.5rem;
+            font-size: 1.5rem;
+            text-align: center;
         }
 
         .saran {
@@ -618,6 +634,11 @@ li a:hover::after {
             transform: translateX(13.4%);
             width: 78%;
         }
+
+        #footer{
+            text-align: center
+        }
+
     }
     
     
@@ -636,6 +657,24 @@ li a:hover::after {
             width: 235px;
             margin-top: 20px;
             border-radius: 10px;
+        }
+
+        .kotak {
+            transform: none;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        .kotak-2{
+            transform: none;
+            width: 100%;
+            display: none;
+        }
+
+        #footer{
+            text-align: center
         }
     }
     
