@@ -81,7 +81,28 @@
 /* END */
 
 
+/* Animation */
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 
+/* End */
 .social-link {
     width: 30px;
     height: 30px;
@@ -583,7 +604,7 @@ color: white;
     
     @media screen and (max-width: 576px){
         
-      
+
 
         ul{
             margin-left: 0;
@@ -595,6 +616,10 @@ color: white;
         }
         h1{
             display: none;
+        }
+
+        .font-wrap{
+            font-size: 25px;
         }
     
     
