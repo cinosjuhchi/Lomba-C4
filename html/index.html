@@ -42,16 +42,16 @@
                     id="navbarSupportedContent">
                     <ul class="navbar-home navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item my-1 me-2">
-                            <a class="nav-link font-primary" href="#">Home</a>
+                            <a class="nav-link font-primary" href="#home">Home</a>
                         </li>
                         <li class="nav-item my-1 me-2">
-                            <a class="nav-link font-primary" href="#">Feature</a>
+                            <a class="nav-link font-primary" href="#feature">Feature</a>
                         </li>
                         <li class="nav-item my-1 me-2">
-                            <a class="nav-link font-primary" href="#">How To Use</a>
+                            <a class="nav-link font-primary" href="#htu">How To Use</a>
                         </li>
                         <li class="nav-item my-1 me-2">
-                            <a class="nav-link font-primary" href="#">Contact</a>
+                            <a class="nav-link font-primary" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -65,25 +65,28 @@
                         <li class="nav-item my-1 sign-up">
                             <!-- <a class="btn btn-primary button-primary-edit font-primary-edit d-block px-3"
                             href="/html/register/index.html">Sign Up</a> -->
-                            <button class="btn btn signup">Sign Up</button>
+                            <button class="btn btn signup"><a href="/html/register/index.html" style="color: white; text-decoration: none;">Sign Up</a></button>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
-
-        <div class="container-fluid jumbotron d-flex justify-content-center
-            align-items-center">
-            <div class="col-12 ">
-                <div class="row">
-                    <h3 class="text-jumbo text-center jumbo-text fw-bold
-                        text-light" style="display: block; margin: auto;">
-                        Welcome to <br>InLogyC SMKN-12</h3>
-                        <p class="fs-3 text-center text-light mt-2" >A Collection Of Works By Students SMKN 12</p>
-                </div>
-            </div>
+        <!--welcome  -->
+<section id="home">
+    <div class="container-fluid jumbotron d-flex justify-content-center
+    align-items-center">
+    <div class="col-12 ">
+        <div class="row">
+            <h3 class="text-jumbo text-center jumbo-text fw-bold
+                text-light" style="display: block; margin: auto;">
+                Welcome to <br>InLogyC SMKN-12</h3>
+                <p class="fs-3 text-center text-light mt-2" >A Collection Of Works By Students SMKN 12</p>
         </div>
+    </div>
+</div>
+
+</section>
+        
         <!-- best Folio -->
 
         <section>
@@ -299,7 +302,7 @@
         </section>
 
         <!-- Feature -->
-        <section>
+        <section id="feature">
             <div class="container">
                 <p class="title text-center" style="font-weight: 700;
                     margin-top: 60px; margin-bottom: 60px;">Feature</p>
@@ -350,7 +353,7 @@
         </section>
 
         <!-- How To USE -->
-        <section>
+        <section id="htu">
             <div class="container">
                 <p class="title text-center" style="font-weight: 700;
                     margin-top: 60px; margin-bottom: 60px;">How to use</p>
@@ -381,47 +384,53 @@
                             </div>
                             <div class="carousel-inner rounded-5">
                                 <div class="carousel-item active">
-                                    <img src="../img/pixel.jpg" class="d-block
+                                    <img src="/img/asetaca/Sign In.svg" class="d-block
                                         w-100" alt="...">
                                     <div class="carousel-caption d-none
                                         d-md-block">
-                                        <h5>Step 1 anda harus baca doa</h5>
-                                        <p>Some representative placeholder
-                                            content for the first slide.</p>
+                                        <h5 class="text-dark">Step 1</h5>
+                                        <p class="text-dark">Sign Up or Sign In</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../img/pixel.jpg" class="d-block
+                                    <img src="/img/asetaca/after login (1).svg" class="d-block
                                         w-100" alt="...">
                                     <div class="carousel-caption d-none
                                         d-md-block">
-                                        <h5>Step 2 anda harus berusaha</h5>
-                                        <p>Some representative placeholder
-                                            content for the second slide.</p>
+                                        <h5 class="text-dark">Step 2</h5>
+                                        <p class="text-dark">After Sign In or Sign Up Click here to Upload your project</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="../img/pixel.jpg" class="d-block
+                                    <img src="/img/asetaca/upload.svg" class="d-block
                                         w-100" alt="...">
                                     <div class="carousel-caption d-none
                                         d-md-block">
-                                        <h5>Step 3 Anda Harus Turu</h5>
-                                        <p>Some representative placeholder
-                                            content for the third slide.</p>
+                                        <h5 class="text-dark">Step 3</h5>
+                                        <p class="text-dark">Upload Your Project</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/img/asetaca/my Project (1).svg" class="d-block
+                                        w-100" alt="...">
+                                    <div class="carousel-caption d-none
+                                        d-md-block">
+                                        <h5 class="text-dark">Step 4</h5>
+                                        <p class="text-dark">Your Project is finally uploaded</p>
                                     </div>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button"
                                 data-bs-target="#carouselExampleCaptions"
                                 data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon"
+                                <span class="carousel-control-prev-icon bg-black" style="border-radius: 20px; padding: 20px;"
                                     aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button"
                                 data-bs-target="#carouselExampleCaptions"
                                 data-bs-slide="next">
-                                <span class="carousel-control-next-icon"
+                                <span class="carousel-control-next-icon bg-black" style="border-radius: 20px; padding: 20px;"
                                     aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
@@ -432,7 +441,7 @@
         </section>
 
 
-        <section style="background-color: #003974; height: auto; ">
+        <section style="background-color: #003974; height: auto;" id="faq">
             <div class="custom-shape-divider-top-1677400997">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 1200 120"
@@ -513,7 +522,7 @@
         </section>
 
         <!-- Contact -->
-        <section>
+        <section id="contact">
             <div class="container">
                 <div class="row">
                     <div class=" w-100 h-100 pembungkus">
@@ -543,29 +552,35 @@
                                 <h3 class="mx-4 pt-4 fw-bold">Contact Us</h3>
                                 <div class="row d-flex flex-column my-3
                                     img-fluid">
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-solid
                                             fa-location-dot"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">SMKN 12 Jakarta</h6>
                                     </div>
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-solid
                                             fa-envelope"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">inlogyc@gmail.com</h6>
                                     </div>
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-solid
                                             fa-mobile-screen-button"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">+62-815-1168-2180</h6>
                                     </div>
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-brands
                                             fa-twitter"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">inlogyc</h6>
                                     </div>
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-brands
                                             fa-square-instagram"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">@inlogyc</h6>
                                     </div>
-                                    <div class="col-1 my-3 mx-3">
+                                    <div class="col-1 my-3 mx-3 d-flex w-100">
                                         <i class="icon-contact fa-brands
                                             fa-linkedin"></i>
+                                        <h6 style="font-size: 1.5rem;" class="my-2 mx-2">In Logyc</h6>
                                     </div>
                                 </div>
                             </div>
@@ -653,7 +668,7 @@
                 </div>
                                  <div class="col-xl-3 col-sm-6 mb-5">
                     <div class="background-primary rounded shadow-sm py-5 px-4"><img src="../img/profil-team/Cino.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0 text-white">Dimas Alif</h5><span class="small text-uppercase text-white">Front End</span>
+                        <h5 class="mb-0 text-white">Muhammad Habibullah</h5><span class="small text-uppercase text-white">Front End</span>
                         <ul class="social mb-0 list-inline mt-3">
                             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
                             <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
@@ -721,8 +736,7 @@
                 <div class="row" style="margin-top: 65px; margin-bottom: 40px;">
                     <div class="col-xxl-3 col-xs-12" id="footer">
                         <img src="/img/InLogyC.png" alt="" height="50">
-                        <p class="fw-lighter mt-2">InLogyc adalah aplikasi untuk
-                            memamerkan Portofolio anda.</p>
+                        <p class="fw-lighter mt-2">InLogyc is Website that containing works of students SMKN 12.</p>
                     </div>
                     <div class="col-xxl-3 col-xs-12 d-flex flex-column"
                         id="footer">
@@ -749,8 +763,8 @@
                     <div class="col-xxl-3 col-xs-12" id="footer">
                         <h3 class="fw-bold fs-5">Be Our Friends</h3>
                         <p class="fw-lighter mt-4">SMKN 12, Jakarta Utara</p>
-                        <p class="fw-lighter">example@gmail.com</p>
-                        <p class="fw-lighter">0888-7777-666</p>
+                        <p class="fw-lighter">inlogyc@gmail.com</p>
+                        <p class="fw-lighter">+62-815-1168-2180</p>
                     </div>
                 </div>
             </div>
