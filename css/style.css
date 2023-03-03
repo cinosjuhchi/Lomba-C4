@@ -411,6 +411,15 @@ color: white;
 
 }
 
+.silver{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #a4a4a4;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;    
+}
+
 .container-desu {
     margin: 0 80px;
 }
