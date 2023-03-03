@@ -192,6 +192,10 @@ border-radius: 30px;
 color: white;
 }
 
+.signup:hover{
+    color: white;
+}
+
 .button-pertama {
     text-decoration: none;
     font-size: 1rem;
@@ -675,6 +679,10 @@ color: white;
 
         #footer{
             text-align: center
+        }
+        
+        #carousel{
+            width: 100%;
         }
 
     }
