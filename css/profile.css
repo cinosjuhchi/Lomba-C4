@@ -52,17 +52,16 @@
 
 
 #sidebar{
-    overflow-x: hidden;
     z-index: 9999;
     position: absolute;
     display: flex;
     flex-direction: column;
     transition: all .3s ease-in-out;
-    right: -500px;
+    left: -500px;
     width: 375px;
     height: 100vh;
     background: #ffffff;
-border-right: 1px solid #616571;
+    border-right: 1px solid #616571;
 }
 
 
@@ -167,7 +166,7 @@ color: #A4A4A4;
 }
 
 #sidebar.open{
-    right: 0;
+    left: 0;
 }
 
 
@@ -226,7 +225,6 @@ color: #A4A4A4;
 
 #btn.open{
     transform: rotate(90deg);
-    margin-left: 20px;
 }
 
 #sidebar ul li a{
