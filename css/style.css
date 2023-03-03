@@ -66,9 +66,40 @@
     display: block !important;
 }
 
+.primer-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    
+}
+
+.background-primary{
+    background: linear-gradient(359.6deg, #003974 3.81%, rgba(0, 0, 0, 0.74) 254.42%);
+}
+
 /* END */
 
 
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
 
 
 
